@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo da Velha</title>
+        <link rel = "preconnect" href = "https://fonts.gstatic.com">
+        <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 400; 500; 700 & display = swap "rel =" stylesheet ">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>JOGO DA VELHA</h1>
+
+        <div>
+            <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+
+        <div>
+            <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+
+        <div>
+            <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+
+        <div class="jogador">
+            <label for="">Jogador:</label>
+            <label id="jogador-selecionado" for=""></label>
+        </div>
+
+        <div class="vencedor">
+            <label for="">Vencedor:</label>
+            <label id="vencedor-selecionado" for=""></label>
+        </div>
+
+        <div>
+            <button class="button" onclick="reiniciar()">Reiniciar</button>
+        </div>
+
+        <script src="scripts.js"></script>
+
+    </body>
+</html>
