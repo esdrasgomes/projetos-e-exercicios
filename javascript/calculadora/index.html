@@ -2,12 +2,12 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title>Calculadora</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Calculadora com JavaScript</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
-		
 		<div class="main">
 			<form name="form">
 				<input class="textview" name="textview" autocomplete="off">
@@ -38,11 +38,10 @@
 					<td rowspan=5><input class="button" style="height: 106px;" type="button" value="=" onclick="equal()"></td>
 				</tr>
 				<tr>
-					<td colspan="2"><input class="button" style="width: 106px;" type="button" value="0" onclick="insert(0)"></td>
+					<td colspan="2"><input class="button" style="width: 102px;" type="button" value="0" onclick="insert(0)"></td>
 					<td><input class="button" type="button" value="." onclick="insert('.')"></td>
 				</tr>
 			</table>
 		</div>
-
 	</body>
 </html>

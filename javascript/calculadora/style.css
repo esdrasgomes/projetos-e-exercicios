@@ -3,26 +3,34 @@
 	padding: 0;
 }
 body {
-	background: #3c3c3c;
+	background: #090b0f;
 }
 .button {
 	width: 50px;
 	height: 50px;
 	font-size: 25px;
-	margin: 2px;
+	margin: 0px;
 	cursor: pointer;
-	background-color: #bbb;
+	background-color: #30363D;
+	color: #eee;
 	border: none;
+	outline: none;
+}
+.button:hover {
+	background-color: #22252b;
 }
 .textview {
-	width: 206px;
+	width: 190px;
 	margin: 5px;
 	font-size: 25px;
-	padding: 5px;
+	padding: 6px;
 	border: none;
+	outline: 0;
 	color: #555;
 }
 .main {
+	background-color: #353b42;
+	padding: 10px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
