@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Projeto Menu de Navegação</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <aside>
+            <div id="menu-opener" onclick="menuToggle()">
+                <img src="https://icon-library.net/images/menu-png-icon/menu-png-icon-21.jpg" width="36" />
+            </div>
+            <div id="menu-area">
+                <ul>
+                    <li>Home</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+        </aside>
+        
+        <script>
+            var menu = document.getElementById("menu-area");
+            function menuToggle(){
+                if(menu.style.width == "200px"){
+                    menu.style.width = "0px"
+                } else {
+                    menu.style.width = "200px"
+                }
+            }
+        </script>
+    </body>
+</html>
