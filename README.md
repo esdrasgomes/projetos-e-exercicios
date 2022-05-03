@@ -10,3 +10,5 @@ Este Repositório tem como objetivo compartilhar alguns dos meus projetos e exer
 ### Exercícios:
 
 [JAVA](https://github.com/esdrasgomes/projetos-e-estudos/tree/main/java)
+
+[PHP](https://github.com/esdrasgomes/projetos-e-estudos/tree/main/php)
