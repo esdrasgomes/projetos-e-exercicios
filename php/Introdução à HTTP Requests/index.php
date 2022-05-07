@@ -1,5 +1,11 @@
-<?php 
+<?php
+    session_start();
     require('header.php');
+
+    if($_SESSION['aviso']) {
+        echo $_SESSION['aviso'];
+        $_SESSION['aviso'] = '';
+    }
 ?>
 <!-- Método POST -> envia os dados internamente || 
      Método GET -> envia os dados externamente e mostra na URL -->
@@ -8,7 +14,14 @@
     <label>
         Nome:
         <br/>
-        <input type="text" name="nome" />
+        <input type="text" name="nome" autofocus/>
+    </label>
+    <br/><br/>
+
+    <label>
+        Email:
+        <br/>
+        <input type="text" name="email" />
     </label>
     <br/><br/>
 

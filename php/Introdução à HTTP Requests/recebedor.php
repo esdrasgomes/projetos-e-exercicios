@@ -1,11 +1,17 @@
-<?php 
-    $nome = filter_input(INPUT_POST, 'nome');
-    $idade = filter_input(INPUT_POST, 'idade');
+<?php
+    session_start();
 
-    if($nome && $idade) {
+    $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
+    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+    $idade = filter_input(INPUT_POST, 'idade', FILTER_VALIDATE_INT);
+
+    if($nome && $email && $idade) {
         echo 'NOME: '.$nome."<br/>";
+        echo 'EMAIL: '.$email."<br/>";
         echo 'IDADE: '.$idade;
     } else {
+        $_SESSION['aviso'] = '<script>alert("Preencha o formulário corretamente!")</script>';
+
         header("Location: index.php");
         exit;
     }
