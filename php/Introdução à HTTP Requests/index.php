@@ -7,6 +7,8 @@
         $_SESSION['aviso'] = '';
     }
 ?>
+
+<a href="apagar.php">Apagar Cookie</a>
 <!-- Método POST -> envia os dados internamente || 
      Método GET -> envia os dados externamente e mostra na URL -->
 <form method="POST" action="recebedor.php">
