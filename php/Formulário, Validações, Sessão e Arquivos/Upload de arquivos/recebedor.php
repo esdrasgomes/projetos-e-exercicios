@@ -1,5 +1,4 @@
 <?php
-
     echo '<pre>';
     print_r( $_FILES );
 
@@ -17,5 +16,4 @@
     } else {
         echo 'Arquivo não permitido!';
     }
-
 ?>
