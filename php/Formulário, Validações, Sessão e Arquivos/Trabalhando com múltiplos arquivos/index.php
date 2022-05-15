@@ -4,11 +4,4 @@
 
     echo 'Conteúdo do site...';
 
-
-
-
-
-
-
-
 ?>
