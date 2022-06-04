@@ -23,21 +23,22 @@
     // }
 
     // ----------------- array_keys e array_values -----------------------
-    $array = [
-        'nome' => 'Esdras',
-        'age' => 22,
-        'empresa' => 'MV',
-        'cor' => 'Preto',
-        'profissao' => 'Desenvolvedor'
-    ];
+    // $array = [
+    //     'nome' => 'Esdras',
+    //     'age' => 22,
+    //     'empresa' => 'MV',
+    //     'cor' => 'Preto',
+    //     'profissao' => 'Desenvolvedor'
+    // ];
 
     // pegando os objetos do array
     // $chaves = array_keys($array);
     // print_r($chaves);
 
     // pegando os valores dos objetos do array
-    $chaves = array_values($array);
-    print_r($chaves);
+    // $chaves = array_values($array);
+    // print_r($chaves);
+
 
 
 
